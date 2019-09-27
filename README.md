@@ -104,3 +104,4 @@ For example of usage of this API please refer to [Suvorov bot](https://github.co
 
 Additional community built AI libraries can be found [here](https://github.com/Blizzard/s2client-proto#community).
 
+We will offer links to download artifacts here.
