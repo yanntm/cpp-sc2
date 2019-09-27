@@ -32,6 +32,8 @@ script:
   - . ../.travis/build.sh
   # Build documentation and copy it to website/ which is the folder we deploy to gh-pages 
   - if [[ "$TRAVIS_OS_NAME" == "linux" && $BUILD_CONFIGURATION = Debug ]]; then cd .. ; mkdir -p docs/html ; doxygen 2>&1 > doxygen.log || cat doxygen.log ; mkdir website ; cp -r docs/* website/ ; fi
+  # copy the built binaries to the website folder
+  - if [[ $BUILD_CONFIGURATION = Release ]]; then cd .. ; mkdir -p website ; cp -r build/ website/ ; fi
   
 
 deploy:
@@ -39,7 +41,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   target_branch: $TRAVIS_OS_NAME
-  local_dir: build/  
+  local_dir: website/  
   on:
     branch: dev
     condition: $BUILD_CONFIGURATION = Release
