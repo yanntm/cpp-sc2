@@ -34,13 +34,14 @@ script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" && $BUILD_CONFIGURATION = Debug ]]; then cd .. ; mkdir -p docs/html ; doxygen 2>&1 > doxygen.log || cat doxygen.log ; mkdir website ; cp -r docs/* website/ ; fi
   # copy the built binaries to the website folder
   - if [[ $BUILD_CONFIGURATION = Release ]]; then cd .. ; mkdir -p website ; cp -r build/ website/ ; fi
-  
+  - if [[ "$TRAVIS_OS_NAME" == "linux" && $BUILD_CONFIGURATION = Release ]]; then export BRANCH=linux ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "windows" && $BUILD_CONFIGURATION = Release ]]; then export BRANCH=win ; fi
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  target_branch: $TRAVIS_OS_NAME
+  target_branch: $BRANCH
   local_dir: website/  
   on:
     branch: dev
