@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o  -o ../../../bin/protoc ../../../bin/libprotobuf.a ../../../bin/libprotoc.a ../../../bin/libprotobuf.a /usr/lib/libz.dylib 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/travis/build/yanntm/cpp-sc2/contrib/ipv6-parse/ipv6.c
+ipv6.h
+/Users/travis/build/yanntm/cpp-sc2/contrib/ipv6-parse/ipv6.h
+ipv6_config.h
+/Users/travis/build/yanntm/cpp-sc2/contrib/ipv6-parse/ipv6_config.h
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+
+/Users/travis/build/yanntm/cpp-sc2/contrib/ipv6-parse/ipv6.h
+stddef.h
+-
+stdint.h
+-
+stdbool.h
+-
+
+contrib/ipv6-parse/ipv6_config.h
+

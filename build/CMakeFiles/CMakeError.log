@@ -1,0 +1,75 @@
+Performing C SOURCE FILE Test HAVE_C_FLAG_W4 failed with the following output:
+Change Dir: /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e53b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e53b.dir/build.make CMakeFiles/cmTC_9e53b.dir/build
+Building C object CMakeFiles/cmTC_9e53b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -DHAVE_C_FLAG_W4 /W4   -o CMakeFiles/cmTC_9e53b.dir/src.c.o   -c /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/W4'
+make[1]: *** [CMakeFiles/cmTC_9e53b.dir/src.c.o] Error 1
+make: *** [cmTC_9e53b/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WNO_RESERVED_ID_MACROS failed with the following output:
+Change Dir: /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fe25/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fe25.dir/build.make CMakeFiles/cmTC_2fe25.dir/build
+Building C object CMakeFiles/cmTC_2fe25.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -DHAVE_C_FLAG_WNO_RESERVED_ID_MACROS -Wno-reserved-id-macros   -o CMakeFiles/cmTC_2fe25.dir/src.c.o   -c /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-reserved-id-macros'; did you mean '-Wno-reserved-id-macro'? [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_2fe25
+/usr/local/Cellar/cmake/3.9.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe25.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -DHAVE_C_FLAG_WNO_RESERVED_ID_MACROS -Wno-reserved-id-macros -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2fe25.dir/src.c.o  -o cmTC_2fe25 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WD4820 failed with the following output:
+Change Dir: /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16bc8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_16bc8.dir/build.make CMakeFiles/cmTC_16bc8.dir/build
+Building C object CMakeFiles/cmTC_16bc8.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -DHAVE_C_FLAG_WD4820 /Wd4820   -o CMakeFiles/cmTC_16bc8.dir/src.c.o   -c /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/Wd4820'
+make[1]: *** [CMakeFiles/cmTC_16bc8.dir/src.c.o] Error 1
+make: *** [cmTC_16bc8/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WX failed with the following output:
+Change Dir: /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ec6d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6ec6d.dir/build.make CMakeFiles/cmTC_6ec6d.dir/build
+Building C object CMakeFiles/cmTC_6ec6d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -DHAVE_C_FLAG_WX /WX   -o CMakeFiles/cmTC_6ec6d.dir/src.c.o   -c /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/WX'
+make[1]: *** [CMakeFiles/cmTC_6ec6d.dir/src.c.o] Error 1
+make: *** [cmTC_6ec6d/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d114/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9d114.dir/build.make CMakeFiles/cmTC_9d114.dir/build
+Building C object CMakeFiles/cmTC_9d114.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -o CMakeFiles/cmTC_9d114.dir/CheckIncludeFiles.c.o   -c /Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9d114.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_9d114/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+

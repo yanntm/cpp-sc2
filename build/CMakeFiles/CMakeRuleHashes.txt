@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+8cb4a9aec4f1f5fc66165d65344af313 generated/s2clientprotocol/common.pb.cc
+84fe3523194813a65a5f247a6fff538d generated/s2clientprotocol/data.pb.cc
+14f621dab587a931fa71f3306bc14ae5 generated/s2clientprotocol/debug.pb.cc
+cd534dd27455141b15ee5463d4f32057 generated/s2clientprotocol/error.pb.cc
+016801997d1745234d7f09bb83a6eb62 generated/s2clientprotocol/query.pb.cc
+38df1bdff007ce30c0c5a78fe82076c7 generated/s2clientprotocol/raw.pb.cc
+f9d1038ef2d977295e8d9f73a21eac58 generated/s2clientprotocol/sc2api.pb.cc
+a1f34a9d057a59a520d1907c115bbdd3 generated/s2clientprotocol/score.pb.cc
+dd40cde53f276ba4e1d5f823ee32d8d8 generated/s2clientprotocol/spatial.pb.cc
+f62942c8b0876f3e28bd2dd339dbf410 generated/s2clientprotocol/ui.pb.cc
