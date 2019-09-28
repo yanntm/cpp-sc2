@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc ../../../bin/libcivetweb.a  CMakeFiles/civetweb-c-library.dir/civetweb.c.o
+/usr/bin/gcc-ranlib ../../../bin/libcivetweb.a

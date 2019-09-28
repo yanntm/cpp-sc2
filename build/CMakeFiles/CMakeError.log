@@ -1,0 +1,1107 @@
+Performing C SOURCE FILE Test HAVE_C_FLAG_WEVERYTHING failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a0ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a0ff.dir/build.make CMakeFiles/cmTC_0a0ff.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a0ff.dir/src.c.o
+/usr/bin/gcc-9   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -DHAVE_C_FLAG_WEVERYTHING -Weverything   -o CMakeFiles/cmTC_0a0ff.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+gcc-9: error: unrecognized command line option '-Weverything'
+CMakeFiles/cmTC_0a0ff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0a0ff.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0a0ff.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0a0ff/fast' failed
+make: *** [cmTC_0a0ff/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_W4 failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05b02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05b02.dir/build.make CMakeFiles/cmTC_05b02.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05b02.dir/src.c.o
+/usr/bin/gcc-9   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -DHAVE_C_FLAG_W4 /W4   -o CMakeFiles/cmTC_05b02.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+gcc-9: error: /W4: No such file or directory
+CMakeFiles/cmTC_05b02.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_05b02.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_05b02.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_05b02/fast' failed
+make: *** [cmTC_05b02/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WD4820 failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcb7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcb7d.dir/build.make CMakeFiles/cmTC_fcb7d.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcb7d.dir/src.c.o
+/usr/bin/gcc-9   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-reserved-id-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -DHAVE_C_FLAG_WD4820 /Wd4820   -o CMakeFiles/cmTC_fcb7d.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+gcc-9: error: /Wd4820: No such file or directory
+CMakeFiles/cmTC_fcb7d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fcb7d.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fcb7d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_fcb7d/fast' failed
+make: *** [cmTC_fcb7d/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WX failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e456/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e456.dir/build.make CMakeFiles/cmTC_7e456.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e456.dir/src.c.o
+/usr/bin/gcc-9   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-reserved-id-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -DHAVE_C_FLAG_WX /WX   -o CMakeFiles/cmTC_7e456.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+gcc-9: error: /WX: No such file or directory
+CMakeFiles/cmTC_7e456.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7e456.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7e456.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7e456/fast' failed
+make: *** [cmTC_7e456/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05804/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05804.dir/build.make CMakeFiles/cmTC_05804.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05804.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-9   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-reserved-id-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -pedantic-errors -fvisibility=hidden    -o CMakeFiles/cmTC_05804.dir/CheckSymbolExists.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&pthread_create))[argc];
+      |           ^
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-reserved-id-macros’
+CMakeFiles/cmTC_05804.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_05804.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_05804.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_05804/fast' failed
+make: *** [cmTC_05804/fast] Error 2
+
+File /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00bda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00bda.dir/build.make CMakeFiles/cmTC_00bda.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00bda.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-reserved-id-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -pedantic-errors -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_00bda.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00bda
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00bda.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-reserved-id-macros -Wno-format-nonliteral -Wno-date-time -Wno-cast-qual -pedantic-errors -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_00bda.dir/CheckFunctionExists.c.o  -o cmTC_00bda -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_00bda.dir/build.make:86: recipe for target 'cmTC_00bda' failed
+make[1]: *** [cmTC_00bda] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_00bda/fast' failed
+make: *** [cmTC_00bda/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2643/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2643.dir/build.make CMakeFiles/cmTC_e2643.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2643.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_e2643.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: ‘-mpreferred-stack-boundary=2’ is not between 3 and 12
+CMakeFiles/cmTC_e2643.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e2643.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e2643.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e2643/fast' failed
+make: *** [cmTC_e2643/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bb39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bb39.dir/build.make CMakeFiles/cmTC_9bb39.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bb39.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_9bb39.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+gcc-9: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_9bb39.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9bb39.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9bb39.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_9bb39/fast' failed
+make: *** [cmTC_9bb39/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_566e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_566e3.dir/build.make CMakeFiles/cmTC_566e3.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_566e3.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_566e3.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+gcc-9: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_566e3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_566e3.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_566e3.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_566e3/fast' failed
+make: *** [cmTC_566e3/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c545/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c545.dir/build.make CMakeFiles/cmTC_5c545.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c545.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_5c545.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c545
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c545.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_5c545.dir/CheckFunctionExists.c.o  -o cmTC_5c545 
+CMakeFiles/cmTC_5c545.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5c545.dir/build.make:86: recipe for target 'cmTC_5c545' failed
+make[1]: *** [cmTC_5c545] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_5c545/fast' failed
+make: *** [cmTC_5c545/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21304/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21304.dir/build.make CMakeFiles/cmTC_21304.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21304.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_21304.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21304
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21304.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_21304.dir/CheckFunctionExists.c.o  -o cmTC_21304 
+CMakeFiles/cmTC_21304.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_21304.dir/build.make:86: recipe for target 'cmTC_21304' failed
+make[1]: *** [cmTC_21304] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_21304/fast' failed
+make: *** [cmTC_21304/fast] Error 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89942/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89942.dir/build.make CMakeFiles/cmTC_89942.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89942.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_89942.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89942
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89942.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_strrev    -rdynamic CMakeFiles/cmTC_89942.dir/CheckFunctionExists.c.o  -o cmTC_89942 
+CMakeFiles/cmTC_89942.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_89942.dir/build.make:86: recipe for target 'cmTC_89942' failed
+make[1]: *** [cmTC_89942] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_89942/fast' failed
+make: *** [cmTC_89942/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fca90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fca90.dir/build.make CMakeFiles/cmTC_fca90.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fca90.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_fca90.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fca90
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca90.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_strupr    -rdynamic CMakeFiles/cmTC_fca90.dir/CheckFunctionExists.c.o  -o cmTC_fca90 
+CMakeFiles/cmTC_fca90.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fca90.dir/build.make:86: recipe for target 'cmTC_fca90' failed
+make[1]: *** [cmTC_fca90] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_fca90/fast' failed
+make: *** [cmTC_fca90/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72c4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72c4a.dir/build.make CMakeFiles/cmTC_72c4a.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72c4a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_72c4a.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72c4a
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72c4a.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_strlwr    -rdynamic CMakeFiles/cmTC_72c4a.dir/CheckFunctionExists.c.o  -o cmTC_72c4a 
+CMakeFiles/cmTC_72c4a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_72c4a.dir/build.make:86: recipe for target 'cmTC_72c4a' failed
+make[1]: *** [cmTC_72c4a] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_72c4a/fast' failed
+make: *** [cmTC_72c4a/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68879/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68879.dir/build.make CMakeFiles/cmTC_68879.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68879.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_68879.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68879
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68879.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=itoa    -rdynamic CMakeFiles/cmTC_68879.dir/CheckFunctionExists.c.o  -o cmTC_68879 
+CMakeFiles/cmTC_68879.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_68879.dir/build.make:86: recipe for target 'cmTC_68879' failed
+make[1]: *** [cmTC_68879] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_68879/fast' failed
+make: *** [cmTC_68879/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9287e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9287e.dir/build.make CMakeFiles/cmTC_9287e.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9287e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_9287e.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9287e
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9287e.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_ltoa    -rdynamic CMakeFiles/cmTC_9287e.dir/CheckFunctionExists.c.o  -o cmTC_9287e 
+CMakeFiles/cmTC_9287e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9287e.dir/build.make:86: recipe for target 'cmTC_9287e' failed
+make[1]: *** [cmTC_9287e] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_9287e/fast' failed
+make: *** [cmTC_9287e/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bebdd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bebdd.dir/build.make CMakeFiles/cmTC_bebdd.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bebdd.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_bebdd.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bebdd
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bebdd.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_uitoa    -rdynamic CMakeFiles/cmTC_bebdd.dir/CheckFunctionExists.c.o  -o cmTC_bebdd 
+CMakeFiles/cmTC_bebdd.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bebdd.dir/build.make:86: recipe for target 'cmTC_bebdd' failed
+make[1]: *** [cmTC_bebdd] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_bebdd/fast' failed
+make: *** [cmTC_bebdd/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43d6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43d6c.dir/build.make CMakeFiles/cmTC_43d6c.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43d6c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_43d6c.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43d6c
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43d6c.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_ultoa    -rdynamic CMakeFiles/cmTC_43d6c.dir/CheckFunctionExists.c.o  -o cmTC_43d6c 
+CMakeFiles/cmTC_43d6c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_43d6c.dir/build.make:86: recipe for target 'cmTC_43d6c' failed
+make[1]: *** [cmTC_43d6c] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_43d6c/fast' failed
+make: *** [cmTC_43d6c/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00c28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00c28.dir/build.make CMakeFiles/cmTC_00c28.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00c28.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_00c28.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00c28
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00c28.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_i64toa    -rdynamic CMakeFiles/cmTC_00c28.dir/CheckFunctionExists.c.o  -o cmTC_00c28 
+CMakeFiles/cmTC_00c28.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_00c28.dir/build.make:86: recipe for target 'cmTC_00c28' failed
+make[1]: *** [cmTC_00c28] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_00c28/fast' failed
+make: *** [cmTC_00c28/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d627e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d627e.dir/build.make CMakeFiles/cmTC_d627e.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d627e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_d627e.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d627e
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d627e.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_ui64toa    -rdynamic CMakeFiles/cmTC_d627e.dir/CheckFunctionExists.c.o  -o cmTC_d627e 
+CMakeFiles/cmTC_d627e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d627e.dir/build.make:86: recipe for target 'cmTC_d627e' failed
+make[1]: *** [cmTC_d627e] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d627e/fast' failed
+make: *** [cmTC_d627e/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22e6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22e6b.dir/build.make CMakeFiles/cmTC_22e6b.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22e6b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_22e6b.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22e6b
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22e6b.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_stricmp    -rdynamic CMakeFiles/cmTC_22e6b.dir/CheckFunctionExists.c.o  -o cmTC_22e6b 
+CMakeFiles/cmTC_22e6b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_22e6b.dir/build.make:86: recipe for target 'cmTC_22e6b' failed
+make[1]: *** [cmTC_22e6b] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_22e6b/fast' failed
+make: *** [cmTC_22e6b/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53b2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53b2b.dir/build.make CMakeFiles/cmTC_53b2b.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53b2b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_53b2b.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53b2b
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b2b.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=_strnicmp    -rdynamic CMakeFiles/cmTC_53b2b.dir/CheckFunctionExists.c.o  -o cmTC_53b2b 
+CMakeFiles/cmTC_53b2b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_53b2b.dir/build.make:86: recipe for target 'cmTC_53b2b' failed
+make[1]: *** [cmTC_53b2b] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_53b2b/fast' failed
+make: *** [cmTC_53b2b/fast] Error 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06eb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06eb8.dir/build.make CMakeFiles/cmTC_06eb8.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06eb8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_06eb8.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_06eb8
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06eb8.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=sysctlbyname    -rdynamic CMakeFiles/cmTC_06eb8.dir/CheckFunctionExists.c.o  -o cmTC_06eb8 
+CMakeFiles/cmTC_06eb8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_06eb8.dir/build.make:86: recipe for target 'cmTC_06eb8' failed
+make[1]: *** [cmTC_06eb8] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_06eb8/fast' failed
+make: *** [cmTC_06eb8/fast] Error 2
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87b96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87b96.dir/build.make CMakeFiles/cmTC_87b96.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87b96.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_87b96.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87b96
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b96.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=iconv_open    -rdynamic CMakeFiles/cmTC_87b96.dir/CheckFunctionExists.c.o  -o cmTC_87b96 -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_87b96.dir/build.make:86: recipe for target 'cmTC_87b96' failed
+make[1]: *** [cmTC_87b96] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_87b96/fast' failed
+make: *** [cmTC_87b96/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_234a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_234a6.dir/build.make CMakeFiles/cmTC_234a6.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_234a6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_234a6.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘alloca’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_234a6
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_234a6.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_234a6.dir/CheckFunctionExists.c.o  -o cmTC_234a6 
+CMakeFiles/cmTC_234a6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x1f): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_234a6.dir/build.make:86: recipe for target 'cmTC_234a6' failed
+make[1]: *** [cmTC_234a6] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_234a6/fast' failed
+make: *** [cmTC_234a6/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b6cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b6cb.dir/build.make CMakeFiles/cmTC_7b6cb.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b6cb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_7b6cb.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7b6cb
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b6cb.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_7b6cb.dir/CheckFunctionExists.c.o  -o cmTC_7b6cb 
+CMakeFiles/cmTC_7b6cb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7b6cb.dir/build.make:86: recipe for target 'cmTC_7b6cb' failed
+make[1]: *** [cmTC_7b6cb] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7b6cb/fast' failed
+make: *** [cmTC_7b6cb/fast] Error 2
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48387/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48387.dir/build.make CMakeFiles/cmTC_48387.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48387.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_48387.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: alsa/asoundlib.h: No such file or directory
+    1 | #include <alsa/asoundlib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_48387.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_48387.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_48387.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_48387/fast' failed
+make: *** [cmTC_48387/fast] Error 2
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0aff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0aff.dir/build.make CMakeFiles/cmTC_c0aff.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0aff.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_c0aff.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: audio/audiolib.h: No such file or directory
+    1 | #include <audio/audiolib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c0aff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c0aff.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c0aff.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c0aff/fast' failed
+make: *** [cmTC_c0aff/fast] Error 2
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3389/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3389.dir/build.make CMakeFiles/cmTC_d3389.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3389.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_d3389.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sndio.h: No such file or directory
+    1 | #include <sndio.h>
+      |          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d3389.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3389.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3389.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d3389/fast' failed
+make: *** [cmTC_d3389/fast] Error 2
+
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b882/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b882.dir/build.make CMakeFiles/cmTC_9b882.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b882.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_9b882.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: samplerate.h: No such file or directory
+    1 | #include <samplerate.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9b882.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9b882.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9b882.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_9b882/fast' failed
+make: *** [cmTC_9b882/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4c76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4c76.dir/build.make CMakeFiles/cmTC_a4c76.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4c76.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_RPI  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -o CMakeFiles/cmTC_a4c76.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: bcm_host.h: No such file or directory
+    2 |         #include <bcm_host.h>
+      |                  ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_a4c76.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a4c76.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a4c76.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a4c76/fast' failed
+make: *** [cmTC_a4c76/fast] Error 2
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Determining if the include file X11/Xcursor/Xcursor.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7635/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7635.dir/build.make CMakeFiles/cmTC_e7635.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7635.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_e7635.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: X11/Xcursor/Xcursor.h: No such file or directory
+    1 | #include <X11/Xcursor/Xcursor.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_e7635.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e7635.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e7635.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e7635/fast' failed
+make: *** [cmTC_e7635/fast] Error 2
+
+
+Determining if the include file X11/extensions/Xinerama.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab1bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab1bd.dir/build.make CMakeFiles/cmTC_ab1bd.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab1bd.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_ab1bd.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: X11/extensions/Xinerama.h: No such file or directory
+    1 | #include <X11/extensions/Xinerama.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_ab1bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ab1bd.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ab1bd.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ab1bd/fast' failed
+make: *** [cmTC_ab1bd/fast] Error 2
+
+
+Determining if the include file X11/extensions/XInput2.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bd15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bd15.dir/build.make CMakeFiles/cmTC_1bd15.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bd15.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_1bd15.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: X11/extensions/XInput2.h: No such file or directory
+    1 | #include <X11/extensions/XInput2.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_1bd15.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1bd15.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1bd15.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1bd15/fast' failed
+make: *** [cmTC_1bd15/fast] Error 2
+
+
+Determining if the include file X11/extensions/Xrandr.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0f2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0f2d.dir/build.make CMakeFiles/cmTC_f0f2d.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0f2d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_f0f2d.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: X11/extensions/Xrandr.h: No such file or directory
+    1 | #include <X11/extensions/Xrandr.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_f0f2d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f0f2d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f0f2d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f0f2d/fast' failed
+make: *** [cmTC_f0f2d/fast] Error 2
+
+
+Determining if files X11/Xlib.h;X11/extensions/xf86vmode.h exist failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b14e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b14e1.dir/build.make CMakeFiles/cmTC_b14e1.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b14e1.dir/HAVE_XF86VM_H.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_b14e1.dir/HAVE_XF86VM_H.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CheckIncludeFiles/HAVE_XF86VM_H.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CheckIncludeFiles/HAVE_XF86VM_H.c:3:10: fatal error: X11/extensions/xf86vmode.h: No such file or directory
+    3 | #include <X11/extensions/xf86vmode.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b14e1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b14e1.dir/HAVE_XF86VM_H.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b14e1.dir/HAVE_XF86VM_H.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b14e1/fast' failed
+make: *** [cmTC_b14e1/fast] Error 2
+
+Source:
+/* */
+#include <X11/Xlib.h>
+#include <X11/extensions/xf86vmode.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_280dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_280dd.dir/build.make CMakeFiles/cmTC_280dd.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_280dd.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_OPENGL   -o CMakeFiles/cmTC_280dd.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: GL/gl.h: No such file or directory
+    2 |         #include <GL/gl.h>
+      |                  ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_280dd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_280dd.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_280dd.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_280dd/fast' failed
+make: *** [cmTC_280dd/fast] Error 2
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glx.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL_EGL failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f939/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f939.dir/build.make CMakeFiles/cmTC_9f939.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f939.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_OPENGL_EGL   -o CMakeFiles/cmTC_9f939.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:3:18: fatal error: EGL/egl.h: No such file or directory
+    3 |         #include <EGL/egl.h>
+      |                  ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9f939.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9f939.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9f939.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_9f939/fast' failed
+make: *** [cmTC_9f939/fast] Error 2
+
+Source file was:
+
+        #define EGL_API_FB
+        #include <EGL/egl.h>
+        int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00f80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00f80.dir/build.make CMakeFiles/cmTC_00f80.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00f80.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_OPENGLES_V1   -o CMakeFiles/cmTC_00f80.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:2:16: fatal error: GLES/gl.h: No such file or directory
+    2 |       #include <GLES/gl.h>
+      |                ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_00f80.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_00f80.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_00f80.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_00f80/fast' failed
+make: *** [cmTC_00f80/fast] Error 2
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V2 failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8669/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8669.dir/build.make CMakeFiles/cmTC_f8669.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8669.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_OPENGLES_V2   -o CMakeFiles/cmTC_f8669.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:2:16: fatal error: GLES2/gl2.h: No such file or directory
+    2 |       #include <GLES2/gl2.h>
+      |                ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_f8669.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f8669.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f8669.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f8669/fast' failed
+make: *** [cmTC_f8669/fast] Error 2
+
+Source file was:
+
+      #include <GLES2/gl2.h>
+      #include <GLES2/gl2ext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38283/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38283.dir/build.make CMakeFiles/cmTC_38283.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38283.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_VIVANTE_VDK   -o CMakeFiles/cmTC_38283.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: gc_vdk.h: No such file or directory
+    2 |         #include <gc_vdk.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_38283.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_38283.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_38283.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_38283/fast' failed
+make: *** [cmTC_38283/fast] Error 2
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc252/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc252.dir/build.make CMakeFiles/cmTC_dc252.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc252.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_VIDEO_VIVANTE_EGL_FB   -o CMakeFiles/cmTC_dc252.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:4:18: fatal error: EGL/eglvivante.h: No such file or directory
+    4 |         #include <EGL/eglvivante.h>
+      |                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_dc252.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dc252.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dc252.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_dc252/fast' failed
+make: *** [cmTC_dc252/fast] Error 2
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b742/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b742.dir/build.make CMakeFiles/cmTC_4b742.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b742.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_4b742.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libudev.h: No such file or directory
+    1 | #include <libudev.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_4b742.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4b742.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4b742.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4b742/fast' failed
+make: *** [cmTC_4b742/fast] Error 2
+
+
+Determining if the include file fcitx/frontend.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a52ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a52ac.dir/build.make CMakeFiles/cmTC_a52ac.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a52ac.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_a52ac.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: fcitx/frontend.h: No such file or directory
+    1 | #include <fcitx/frontend.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_a52ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a52ac.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a52ac.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a52ac/fast' failed
+make: *** [cmTC_a52ac/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0974/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0974.dir/build.make CMakeFiles/cmTC_c0974.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0974.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTC_c0974.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: tslib.h: No such file or directory
+    2 |         #include "tslib.h"
+      |                  ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c0974.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c0974.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c0974.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c0974/fast' failed
+make: *** [cmTC_c0974/fast] Error 2
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b9d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b9d9.dir/build.make CMakeFiles/cmTC_1b9d9.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b9d9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_1b9d9.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b9d9
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b9d9.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_1b9d9.dir/CheckFunctionExists.c.o  -o cmTC_1b9d9 -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1b9d9.dir/build.make:86: recipe for target 'cmTC_1b9d9' failed
+make[1]: *** [cmTC_1b9d9] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1b9d9/fast' failed
+make: *** [cmTC_1b9d9/fast] Error 2
+
+
+Determining if the include file usb.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17ace/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17ace.dir/build.make CMakeFiles/cmTC_17ace.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17ace.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_17ace.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: usb.h: No such file or directory
+    1 | #include <usb.h>
+      |          ^~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_17ace.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_17ace.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_17ace.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_17ace/fast' failed
+make: *** [cmTC_17ace/fast] Error 2
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38030/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38030.dir/build.make CMakeFiles/cmTC_38030.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38030.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-9    -o CMakeFiles/cmTC_38030.dir/CheckIncludeFile.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libusb.h: No such file or directory
+    1 | #include <libusb.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_38030.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_38030.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_38030.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_38030/fast' failed
+make: *** [cmTC_38030/fast] Error 2
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe7a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe7a5.dir/build.make CMakeFiles/cmTC_fe7a5.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe7a5.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_fe7a5.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe7a5
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe7a5.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_fe7a5.dir/CheckFunctionExists.c.o  -o cmTC_fe7a5 -lusb 
+/usr/bin/ld: cannot find -lusb
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fe7a5.dir/build.make:86: recipe for target 'cmTC_fe7a5' failed
+make[1]: *** [cmTC_fe7a5] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_fe7a5/fast' failed
+make: *** [cmTC_fe7a5/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1ccb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1ccb.dir/build.make CMakeFiles/cmTC_e1ccb.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1ccb.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_USBHID   -o CMakeFiles/cmTC_e1ccb.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:10:19: fatal error: dev/usb/usb.h: No such file or directory
+   10 |         # include <dev/usb/usb.h>
+      |                   ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_e1ccb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e1ccb.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e1ccb.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e1ccb/fast' failed
+make: *** [cmTC_e1ccb/fast] Error 2
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c011/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c011.dir/build.make CMakeFiles/cmTC_0c011.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c011.dir/src.c.o
+/usr/bin/gcc-9   -DHAVE_PTHREAD_NP_H   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_0c011.dir/src.c.o   -c /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c
+/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp/src.c:3:20: fatal error: pthread_np.h: No such file or directory
+    3 |           #include <pthread_np.h>
+      |                    ^~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_0c011.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0c011.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0c011.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0c011/fast' failed
+make: *** [cmTC_0c011/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_596d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_596d6.dir/build.make CMakeFiles/cmTC_596d6.dir/build
+make[1]: Entering directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_596d6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-9   -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_596d6.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_596d6
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596d6.dir/link.txt --verbose=1
+/usr/bin/gcc-9  -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_596d6.dir/CheckFunctionExists.c.o  -o cmTC_596d6 
+CMakeFiles/cmTC_596d6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_596d6.dir/build.make:86: recipe for target 'cmTC_596d6' failed
+make[1]: *** [cmTC_596d6] Error 1
+make[1]: Leaving directory '/home/travis/build/yanntm/cpp-sc2/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_596d6/fast' failed
+make: *** [cmTC_596d6/fast] Error 2
+
+

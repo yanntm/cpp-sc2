@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -O3 -DNDEBUG  -rdynamic CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o  -o ../../../bin/protoc ../../../bin/libprotobuf.a ../../../bin/libprotoc.a ../../../bin/libprotobuf.a -lpthread /usr/lib/x86_64-linux-gnu/libz.so 

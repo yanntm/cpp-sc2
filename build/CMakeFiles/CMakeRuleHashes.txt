@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+acb2251f8d2a09e4be9c8574887c4160 contrib/SDL-mirror/CMakeFiles/uninstall
+3c1fc3559817e10c099c3c1934210d7a generated/s2clientprotocol/common.pb.cc
+7b454cec3e616410d12263952b615e63 generated/s2clientprotocol/data.pb.cc
+63882230358547f9393ce257c41c77d6 generated/s2clientprotocol/debug.pb.cc
+fd08c90555f8617de64d6acaaaccfcfe generated/s2clientprotocol/error.pb.cc
+2d18ef3b75ad96c448825a2f999ac200 generated/s2clientprotocol/query.pb.cc
+8e0f0b97e3ad5e7add2ec88828f3ee3e generated/s2clientprotocol/raw.pb.cc
+16bb608ca23fc82d3f5936251a7e8dce generated/s2clientprotocol/sc2api.pb.cc
+86e7e477b2f70c4ed470005a1b94ac00 generated/s2clientprotocol/score.pb.cc
+5e59e036109c58c96bfaaa58c42e2fc6 generated/s2clientprotocol/spatial.pb.cc
+e5838ead99bb603e898fbf88ab3565c0 generated/s2clientprotocol/ui.pb.cc

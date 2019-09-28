@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -O3 -DNDEBUG  -rdynamic CMakeFiles/replay.dir/common/bot_examples.cc.o CMakeFiles/replay.dir/replay.cc.o  -o ../bin/replay ../bin/libsc2api.a ../bin/libsc2lib.a ../bin/libsc2utils.a ../bin/libsc2api.a ../bin/libsc2protocol.a ../bin/libprotobuf.a /usr/lib/x86_64-linux-gnu/libz.so ../bin/libcivetweb.a -lpthread -ldl ../contrib/ipv6-parse/bin/libipv6-parse.a 

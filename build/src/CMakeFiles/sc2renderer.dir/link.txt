@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libsc2renderer.a  CMakeFiles/sc2renderer.dir/sc2renderer/sc2_renderer.cc.o
+/usr/bin/ranlib ../bin/libsc2renderer.a
