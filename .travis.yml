@@ -27,16 +27,18 @@ osx_image: xcode9.1
 script:
    # On linux, configures to use recent C++ compiler + linker instead of default. 
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export GCCVER='9' ; export CXX_COMPILER=g++-${GCCVER} C_COMPILER=gcc-${GCCVER} AR=gcc-ar-${GCCVER} RANLIB=gcc-ranlib-${GCCVER} NM=gcc-nm-${GCCVER} ; export CC=${C_COMPILER} CXX=${CXX_COMPILER} ; fi ;
-  - mkdir build
-  - cd build
+  - mkdir -p build ; cd build
   - . ../.travis/build.sh
+  - cd ..
   # Build documentation and copy it to website/ which is the folder we deploy to gh-pages 
-  - if [[ "$TRAVIS_OS_NAME" == "linux" && $BUILD_CONFIGURATION = Debug ]]; then cd .. ; mkdir -p docs/html ; doxygen 2>&1 > doxygen.log || cat doxygen.log ; mkdir website ; cp -r docs/* website/ ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" && $BUILD_CONFIGURATION = Debug ]]; then mkdir -p docs/html ; doxygen 2>&1 > doxygen.log || cat doxygen.log ; mkdir website ; cp -r docs/* website/ ; fi
   # copy the built binaries to the website folder
-  - if [[ $BUILD_CONFIGURATION = Release ]]; then cd .. ; mkdir -p website ; cp -r build/ website/ ; fi
+  - if [[ $BUILD_CONFIGURATION = Release ]]; then mkdir -p website ; cp -r build website ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" && $BUILD_CONFIGURATION = Release ]]; then export BRANCH=linux ; fi
   - if [[ "$TRAVIS_OS_NAME" == "windows" && $BUILD_CONFIGURATION = Release ]]; then export BRANCH=win ; fi
-
+  - if [[ "$TRAVIS_OS_NAME" == "osx" && $BUILD_CONFIGURATION = Release ]]; then export BRANCH=osx ; fi
+  - ls -lahR
+  
 deploy:
   provider: pages
   skip_cleanup: true
